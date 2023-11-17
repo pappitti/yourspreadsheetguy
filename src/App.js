@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ChatInterface from './components/ChatInterface';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <div className="flex flex-col h-screen">
+        <div className="p-4 text-3xl text-white font-bold bg-blue-600">Your Spreadsheet Guy</div>
+        <div className="flex-grow overflow-auto">
+          <ChatInterface />
+        </div>
+        <div className="p-4 text-white bg-gray-800">
+          <a href="" target="_blank" className='m-auto'>github repo</a>
+        </div>
+      </div>
+    );
 }
 
 export default App;
