@@ -8,8 +8,8 @@ function App() {
         <div className="flex-grow overflow-auto">
           <ChatInterface />
         </div>
-        <div className="p-4 text-white bg-gray-800">
-          <a href="" target="_blank" className='m-auto'>github repo</a>
+        <div className="p-4 w-full text-white bg-gray-800 text-center">
+          <a href="https://github.com/pappitti/yourspreadsheetguy" target="_blank">github repo</a>
         </div>
       </div>
     );

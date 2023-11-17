@@ -12,10 +12,8 @@ const ComponentG = ({ onNextStep,chainLength,handleClose }) => {
             setIsLoading(false);
             const decideNextStep = Math.random();
             if (decideNextStep < 0.5) {
-                console.log("decideNextStep H");
                 onNextStep(<ComponentH key={chainLength + 1} onNextStep={onNextStep} chainLength={chainLength + 1}/>);
             } else {
-                console.log("decideNextStep Z");
                 onNextStep(<ComponentZ key={chainLength + 1} onNextStep={onNextStep} chainLength={chainLength + 1}/>);
             }
         }, 5000);
