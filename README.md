@@ -1,6 +1,7 @@
 # Your Spreadsheet Guy
 
-This app is not actually processing any input from users (neither text nor files). It is just adding one component after the other.
+This app is not actually processing any input from users (neither text nor files). It is just adding one component after the other.  
+the app is live here : https://yourspreadsheetguy.vercel.app/
 
 ## Available Scripts
 
